@@ -20,6 +20,7 @@ def getGradesFromWebsite(usr,pwd):
     driver = webdriver.Remote("http://<selenium ip>/wd/hub", DesiredCapabilities.CHROME)
 
 
+
     url = "https://www.eis-scmt.com/home/lib/Controller.php?oitSource=scmt_eis&oitAction=start"
 
     #Open Website
